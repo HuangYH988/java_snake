@@ -301,7 +301,7 @@ public class Board extends JPanel implements ActionListener {
 			dots++;
 			score += 100;
 			count++;
-			if (count==3) {
+			if (count==10) {
 				count = 0;
 				nextLevel();
 			} 
